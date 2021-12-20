@@ -1,3 +1,9 @@
+**CE README A ETE REDIGE DE MANIERE CHRONOLOGIQUE IL Y A DES ERREURS QUI SONT CORRIGES PAR LA SUITE**
+
+
+
+
+
 # installation de jenkins
 
 ## Userdata?
