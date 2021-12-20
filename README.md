@@ -52,11 +52,11 @@ Configuration du plugin slack notifications sur jenkins (canal & token) en suiva
 
 ajout du secret
 
-![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assettoken.PNG?raw=true)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assettoken.PNG)
 
 Test de connexion
 
-![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assettotestslackokken.PNG?raw=true)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assettotestslackokken.PNG)
 
 
 # environnement staging
@@ -125,13 +125,13 @@ ajout sshusername with private key pair cle privée EC2 avec id ec2_prod_private
 deploy statging OK
 
 
-![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetstaging.PNG?raw=true)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetstaging.PNG)
 
 Test OK
 
 deploy prod confirmé
 
-![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetprod.PNG?raw=true)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetprod.PNG)
 
 
 
@@ -140,7 +140,7 @@ deploy prod confirmé
 Notif Slack OK
 
 
-![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetslack.PNG?raw=true)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetslack.PNG)
 
 
 
