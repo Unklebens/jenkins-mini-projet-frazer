@@ -27,6 +27,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 chmod +x install.sh
+
 sudo ./install.sh
 
 le mot de passe d'installation de jennkins est affiché en dernière ligne du script
@@ -37,17 +38,25 @@ Comme dirais Apache "It WORKS!"
 # Configuration Jenkins
 
 installation des plugin par defaut
+
 creation du user
-http://3.80.182.159:8080/
+
+IP : http://3.80.182.159:8080/
+
 ajout du plugin slack notifications
 
 # Config Slack
 
 connexion au slack sur le navigateur
+
 autorisation MFA (ce que je possède)
+
 creation du canal
+
 installation de Jenkins sur slack 
+
 choix du canal
+
 Configuration du plugin slack notifications sur jenkins (canal & token) en suivant Procédure https://ajc-devopsdiscussion.slack.com/services/B02RCB4L3KP?added=1
 
 ajout du secret
@@ -80,10 +89,15 @@ commit des nouveau host sur le GH
 # creation du pipeline
 
 new item
-nom : mini-trojet
+
+nom : mini-projet
+
 Projet URL : https://github.com/Unklebens/static-website-example.git
+
 cocher Github hook
+
 Pipeline from SCM
+
 Save
 
 ## build 1
