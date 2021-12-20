@@ -5,7 +5,7 @@
 pour une raison que je ne maitrise pas encore mettre le script cité plus bas en Userdata de la EC2 AWS ne fonctionne pas en tant qu'ubuntu, peut etre qu'il y a des variables d'environnement qui sont données a root que ubuntu ne peut pas utiliser 
 j'ai la flemme de chercher je fais ce qui marche basta (**Lors de la cration de l'environnement de staging je me suis rendu compte que je n'avais pas mis de shebang ce qui a pu causer le probleme**)
 
-un exper c'est qqun qui s'est beaucoup trompé donc la j'ai monté mon niveau d'expertise héhé ^^
+un expert c'est qqun qui s'est beaucoup trompé donc la j'ai monté mon niveau d'expertise héhé ^^
 
 
 ## Installation semi-manuelle
@@ -49,13 +49,14 @@ creation du canal
 installation de Jenkins sur slack 
 choix du canal
 Configuration du plugin slack notifications sur jenkins (canal & token) en suivant Procédure https://ajc-devopsdiscussion.slack.com/services/B02RCB4L3KP?added=1
+
 ajout du secret
 
-![ScreenShot](asset/token.png)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assettoken.png?raw=true)
 
 Test de connexion
 
-![ScreenShot](asset/totestslackokken.png)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assettotestslackokken.png?raw=true)
 
 
 # environnement staging
@@ -124,20 +125,22 @@ ajout sshusername with private key pair cle privée EC2 avec id ec2_prod_private
 deploy statging OK
 
 
-![ScreenShot](asset/staging.png)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetstaging.png?raw=true)
 
 Test OK
 
 deploy prod confirmé
 
-![ScreenShot](asset/prod.png)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetprod.png?raw=true)
+
+
 
 
 
 Notif Slack OK
 
 
-![ScreenShot](asset/slack.png)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/assetslack.png?raw=true)
 
 
 
