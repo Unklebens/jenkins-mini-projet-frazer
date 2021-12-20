@@ -9,9 +9,11 @@
 ## Userdata?
 
 pour une raison que je ne maitrise pas encore mettre le script cité plus bas en Userdata de la EC2 AWS ne fonctionne pas en tant qu'ubuntu, peut etre qu'il y a des variables d'environnement qui sont données a root que ubuntu ne peut pas utiliser 
-j'ai la flemme de chercher je fais ce qui marche basta (**Lors de la cration de l'environnement de staging je me suis rendu compte que je n'avais pas mis de shebang ce qui a pu causer le probleme**)
+j'ai la flemme de chercher je fais ce qui marche *basta*
 
-un expert c'est qqun qui s'est beaucoup trompé donc la j'ai monté mon niveau d'expertise héhé ^^
+(**Lors de la cration de l'environnement de staging je me suis rendu compte que je n'avais pas mis de shebang ce qui a surement causé le probleme**)
+
+un expert c'est qqun qui s'est beaucoup trompé donc là j'ai monté mon niveau d'expertise héhé ^^
 
 
 ## Installation semi-manuelle
@@ -31,12 +33,13 @@ sudo systemctl start jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-
+```
 chmod +x install.sh
 
 sudo ./install.sh
+```
 
-le mot de passe d'installation de jennkins est affiché en dernière ligne du script
+le mot de passe d'installation de jenkins est affiché en dernière ligne du script
 
 Comme dirais Apache "It WORKS!"
 
@@ -57,7 +60,7 @@ connexion au slack sur le navigateur
 
 autorisation MFA (ce que je possède)
 
-creation du canal
+creation du canal #mini-projet
 
 installation de Jenkins sur slack 
 
@@ -74,9 +77,9 @@ Test de connexion
 ![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/asset/testslackok.PNG)
 
 
-# environnement staging
+# Creation environnements 
 
-## Userdata
+## Userdata staging
 
 ```
 #!/bin/bash
@@ -89,8 +92,9 @@ usermod -aG docker ubuntu
 
 IP Staging : 3.92.214.193
 
+## environnement PROD = EC2 jenkins
 
-commit des nouveau host sur le GH
+commit des nouveau host sur le Github
 
 # creation du pipeline
 
@@ -163,4 +167,4 @@ Notif Slack OK
 ![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/asset/slack.PNG)
 
 
-
+# Nettoyage correction et fix URL images du README.md
