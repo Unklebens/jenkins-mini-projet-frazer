@@ -56,7 +56,7 @@ ajout du secret
 
 Test de connexion
 
-![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/asset/testslackokken.PNG)
+![Screenshot](https://github.com/Unklebens/jenkins-mini-projet-frazer/blob/main/asset/testslackok.PNG)
 
 
 # environnement staging
